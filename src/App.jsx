@@ -29,7 +29,7 @@ const siteProps = {
   title: "Web Designer",
   email: "ushoeb25@gmail.com",
   gitHub: "SD-CODE-OEB",
-  instagram: "1_in_millon_syed_shoeb_904",
+  instagram: "1_in_million_syed_shoeb_904",
   linkedIn: "shoeb-uddin-26a650251",
   medium: "",
   twitter: "ushoeb944",
