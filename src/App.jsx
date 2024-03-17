@@ -28,12 +28,12 @@ const siteProps = {
   name: "Shoeb Uddin",
   title: "Web Designer",
   email: "ushoeb25@gmail.com",
-  gitHub: "microsoft",
-  instagram: "microsoft",
-  linkedIn: "satyanadella",
+  gitHub: "SD-CODE-OEB",
+  instagram: "1_in_millon_syed_shoeb_904",
+  linkedIn: "shoeb-uddin-26a650251",
   medium: "",
-  twitter: "microsoft",
-  youTube: "Code",
+  twitter: "ushoeb944",
+  youTube: "",
 };
 
 const primaryColor = "#4E567E";
