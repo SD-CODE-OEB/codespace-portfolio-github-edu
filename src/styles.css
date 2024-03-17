@@ -12,7 +12,9 @@ body {
   overflow-x: hidden;
   padding: 0;
   width: 100%;
+  scroll-behavior: smooth;
 }
+/* I want to animate the the scroll down arrow in home up and down */
 
 div#main {
   display: flex;
@@ -20,13 +22,16 @@ div#main {
   width: 100vw;
 }
 
-section {
-  position: relative;
-  width: 100vw;
-}
-
-section.min-height {
-  min-height: 100vh;
+@keyframes bounce {
+  0% {
+    transform: translate(-50%, 0) scale(1);
+  }
+  50% {
+    transform: translate(-50%, 10px) scale(1.2);
+  }
+  100% {
+    transform: translate(-50%, 0) scale(1);
+  }
 }
 
 section.padding {
@@ -50,13 +55,13 @@ h1 {
   font-size: 7rem;
   font-weight: 400;
   line-height: 0.8;
-  margin-left: 25%;
+  margin: 0;
 }
 
 h2 {
   font-size: 2rem;
   font-weight: 400;
-  margin: 25%;
+  margin-right: -30px;
   padding-top: 1rem;
 }
 
@@ -122,4 +127,15 @@ a:hover {
 img.socialIcon {
   height: 30px;
   width: 30px;
+}
+/* add a slide in left animation */
+@keyframes slideInLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
