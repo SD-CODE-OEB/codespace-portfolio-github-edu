@@ -7,7 +7,7 @@
   "scripts": {
     "start": "parcel",
     "build": "parcel build",
-    "build-gh": "parcel build --public-url 'https://SD-CODE-OEB.github.io/codespace-portfolio-github-edu'",
+    "build-gh": "parcel build --public-url https://SD-CODE-OEB.github.io/codespace-portfolio-github-edu",
     "predeploy": "npm run build-gh",
     "deploy": "gh-pages -d dist"
   },
