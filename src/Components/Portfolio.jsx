@@ -59,7 +59,7 @@ const projectList = [
 const Portfolio = () => {
   return (
     <section className="padding" id="portfolio">
-      <h2 style={{ textAlign: "center" }}>Portfolio</h2>
+      <h2 style={{ textAlign: "center", marginBottom: "6rem" }}>Portfolio</h2>
       <img className="background" src={image} alt={imageAltText} />
       <div style={{ display: "flex", flexDirection: "row", paddingTop: "3rem" }}>
         <div className="container">
